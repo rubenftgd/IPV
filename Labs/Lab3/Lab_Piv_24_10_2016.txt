@@ -1,0 +1,36 @@
+Comando SVD
+
+L = Lambda
+^T = Transposta
+
+
+PCA = Principal component analisys 
+
+A = | g (i1) ... g(in)  | 
+	| g (j1) ... g(jn)  |
+
+	| L1   0  |   = simbolo em  triângulo
+	| 0    L2 |
+
+	A * A^T = u * simbolo em triângulo
+
+For each point get the gradient -> Compute the covarience -> Good corners are close to one
+
+
+Sum [ I_1 (x -d ) - T(x)]²
+x Pertence a D
+
+
+Maximize correlation -> MAX Sum em i de  [ I_1 (xi - d) * T(x)]
+
+Lucas Kanade -> https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_Optical_Flow_Method
+
+SSD
+
+
+
+matlab function -> normexcorrr2 (A,B)
+
+
+use vlfeat.org
+

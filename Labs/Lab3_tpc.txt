@@ -1,0 +1,33 @@
+TPC:
+
+- Chain Transformation
+
+- Fine tunning (ICP) -> para resultar temos que ter as point clouds perto uma da outra
+
+- Keep # (number) of poins low (VOXELx) -> descritizamos x,y
+
+
+	-> Iterative closest point wikipedia
+
+
+
+Antes da convolução temos que fazer RGB -> TO -> Gray
+	-> convolution is for double variables only (matlab)
+		-> conv (1 dimensão) e conv2 é a 2 dimensões.
+
+
+
+TPC Da aula teórica:
+
+	-> Receber uma imagem de raio X, aplicar um filtor passa Baixo e fica apenas o filtro passa alto (os contornos)
+	I - G * I(x,y)
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	Código do professor:
+
+	ftf = fft2(f,100,100);
+	figure;
+	mesh (fftshift(abs(ftf)));
+
+

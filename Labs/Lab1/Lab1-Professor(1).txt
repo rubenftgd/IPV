@@ -1,0 +1,62 @@
+
+/*************************************\
+
+************* Lab           ***********
+http://printart.isr.ist.utl.pt/piv/lab/
+
+\*************************************/
+
+
+
+/*************************************\
+
+********* Project of 2015 ************
+
+http://printart.isr.ist.utl.pt/piv2015/
+
+\*************************************/
+
+
+
+
+
+/*************************************\
+
+******** What to do? ******************
+
+	-> Convert pixels to XYZ
+
+	-> In Matlab X is column and Y is row
+
+	-> Understand the projective camera (Aulas teóricas)
+
+\*************************************/
+
+
+
+
+/*************************************\
+
+***** O professor escreveu ************
+
+IM = imread ('   ');
+
+size(IM) = 480*640*3
+
+	-> R G B
+
+	imshow
+
+f (x,y)
+
+(x,y) € |R² -> b = f (x,y)
+
+f (n1 , n2)       ->      b = f (n1,n2)
+  (n1 , n2) € N²          |R
+
+
+
+  -> Gradient can give us the contours...
+  -> This is the way to see the contours of the books in the shelf
+
+\*************************************/
